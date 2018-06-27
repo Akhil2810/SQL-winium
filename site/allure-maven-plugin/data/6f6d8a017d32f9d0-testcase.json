@@ -1,0 +1,59 @@
+{
+  "uid" : "6f6d8a017d32f9d0",
+  "name" : "compareList",
+  "title" : "Compare list",
+  "time" : {
+    "start" : 1529673787713,
+    "stop" : 1529673815037,
+    "duration" : 27324
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c0303be04c94c625",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "compareList"
+  }, {
+    "name" : "host",
+    "value" : "WIN8PRO-64-18"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "thread",
+    "value" : "1132@WIN8PRO-64-18.main(1)"
+  }, {
+    "name" : "testClass",
+    "value" : "IderaAutomation.Idera_copy"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,59 @@
+{
+  "uid" : "ac50f6544aa77c5d",
+  "name" : "openTable",
+  "title" : "Open table",
+  "time" : {
+    "start" : 1529673815045,
+    "stop" : 1529673854056,
+    "duration" : 39011
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c0303be04c94c625",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "openTable"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "host",
+    "value" : "WIN8PRO-64-18"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "thread",
+    "value" : "1132@WIN8PRO-64-18.main(1)"
+  }, {
+    "name" : "testClass",
+    "value" : "IderaAutomation.Idera_copy"
+  } ],
+  "parameters" : [ ]
+}

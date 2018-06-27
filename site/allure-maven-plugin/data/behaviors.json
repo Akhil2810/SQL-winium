@@ -1,0 +1,48 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "959c1b24f46c8cb2",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "6f6d8a017d32f9d0",
+        "name" : "compareList",
+        "title" : "Compare list",
+        "time" : {
+          "start" : 1529673787713,
+          "stop" : 1529673815037,
+          "duration" : 27324
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ac50f6544aa77c5d",
+        "name" : "openTable",
+        "title" : "Open table",
+        "time" : {
+          "start" : 1529673815045,
+          "stop" : 1529673854056,
+          "duration" : 39011
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

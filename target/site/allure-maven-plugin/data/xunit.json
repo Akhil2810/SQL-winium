@@ -1,0 +1,49 @@
+{
+  "time" : {
+    "start" : 1529932775787,
+    "stop" : 1529932845089,
+    "duration" : 69302
+  },
+  "testSuites" : [ {
+    "uid" : "a5fa25cb909e1f9f",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test",
+    "time" : {
+      "start" : 1529932775787,
+      "stop" : 1529932845089,
+      "duration" : 69302
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "46ec92d58f6acc14",
+      "name" : "compareList",
+      "title" : "Check compare list in alter table--- ",
+      "time" : {
+        "start" : 1529932775787,
+        "stop" : 1529932806808,
+        "duration" : 31021
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "2c96fe56048b6ef8",
+      "name" : "openTable",
+      "title" : "Check Show all & Hide is working and check the query selected is working or not  ",
+      "time" : {
+        "start" : 1529932806814,
+        "stop" : 1529932845089,
+        "duration" : 38275
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

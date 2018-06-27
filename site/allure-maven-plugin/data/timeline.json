@@ -1,0 +1,31 @@
+{
+  "hosts" : [ {
+    "title" : "WIN8PRO-64-18",
+    "threads" : [ {
+      "title" : "1132@WIN8PRO-64-18.main(1)",
+      "testCases" : [ {
+        "uid" : "6f6d8a017d32f9d0",
+        "name" : "compareList",
+        "title" : "Compare list",
+        "time" : {
+          "start" : 1529673787713,
+          "stop" : 1529673815037,
+          "duration" : 27324
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ac50f6544aa77c5d",
+        "name" : "openTable",
+        "title" : "Open table",
+        "time" : {
+          "start" : 1529673815045,
+          "stop" : 1529673854056,
+          "duration" : 39011
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70347" started-at="2018-06-25T13:19:35Z" finished-at="2018-06-25T13:20:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="70347" started-at="2018-06-25T13:19:35Z" finished-at="2018-06-25T13:20:45Z">
+      <class name="IderaAutomation.Idera_copy">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:IderaAutomation.Idera_copy@71f0b72e]" name="beforeTest" is-config="true" duration-ms="31" started-at="2018-06-25T18:49:35Z" finished-at="2018-06-25T18:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="compareList()[pri:0, instance:IderaAutomation.Idera_copy@71f0b72e]" name="compareList" duration-ms="31141" started-at="2018-06-25T18:49:35Z" finished-at="2018-06-25T18:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareList -->
+        <test-method status="PASS" signature="openTable()[pri:0, instance:IderaAutomation.Idera_copy@71f0b72e]" name="openTable" duration-ms="38277" started-at="2018-06-25T18:50:06Z" finished-at="2018-06-25T18:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTable -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:IderaAutomation.Idera_copy@71f0b72e]" name="afterTest" is-config="true" duration-ms="807" started-at="2018-06-25T18:50:45Z" finished-at="2018-06-25T18:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- IderaAutomation.Idera_copy -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

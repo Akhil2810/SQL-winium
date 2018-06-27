@@ -1,0 +1,224 @@
+{
+  "uid" : "2c96fe56048b6ef8",
+  "name" : "openTable",
+  "title" : "Check Show all & Hide is working and check the query selected is working or not  ",
+  "time" : {
+    "start" : 1529932806814,
+    "stop" : 1529932845089,
+    "duration" : 38275
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 11
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "a5fa25cb909e1f9f",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Try to select Table to verify the features]",
+    "title" : "Try to select Table to verify the features",
+    "time" : {
+      "start" : 1529932806816,
+      "stop" : 1529932806816,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Selected table_01]",
+    "title" : "Selected table_01",
+    "time" : {
+      "start" : 1529932811623,
+      "stop" : 1529932811623,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Slect open table option]",
+    "title" : "Slect open table option",
+    "time" : {
+      "start" : 1529932813699,
+      "stop" : 1529932813699,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Clear the Query frame and try to type select query : -----Select * from Idera_test.table_01;]",
+    "title" : "Clear the Query frame and try to type select query : -----Select * from Idera_test.table_01;",
+    "time" : {
+      "start" : 1529932814298,
+      "stop" : 1529932814298,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Result Of Query:  \"Select * from Idera_test.table_01;\" \nID\tName\tDept\n1\tAAA\tIT\n2\tBBB\tCSE\n3\tCCC\tMECH\n4\tDDD\tBIO]",
+    "title" : "Result Of Query:  \"Select * from Idera_test.table_01;\" \nID\tName\tDept\n1\tAAA\tIT\n2\tBBB\tCSE\n3\tCCC\tMECH\n4\tDDD\tBIO",
+    "time" : {
+      "start" : 1529932817988,
+      "stop" : 1529932817988,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verify Show SQL Preview]",
+    "title" : "Verify Show SQL Preview",
+    "time" : {
+      "start" : 1529932837750,
+      "stop" : 1529932837750,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[\n\n Show SQL Link is Visible and Able to click]",
+    "title" : "\n\n Show SQL Link is Visible and Able to click",
+    "time" : {
+      "start" : 1529932837756,
+      "stop" : 1529932837756,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Hide SQL Preview]",
+    "title" : "Hide SQL Preview",
+    "time" : {
+      "start" : 1529932838323,
+      "stop" : 1529932838323,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[\n\n Hide SQL Link is Visible and Able to click]",
+    "title" : "\n\n Hide SQL Link is Visible and Able to click",
+    "time" : {
+      "start" : 1529932838333,
+      "stop" : 1529932838333,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[\n\nNew Updated Quary : select * from `idera_test`.`table_01` where `ID` > '0' AND `Name` = 'AAA' AND `Dept` LIKE ...]",
+    "title" : "\n\nNew Updated Quary : select * from `idera_test`.`table_01` where `ID` > '0' AND `Name` = 'AAA' AND `Dept` LIKE 'IT' lim...",
+    "time" : {
+      "start" : 1529932842932,
+      "stop" : 1529932842932,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[\nResult Of New Updated Query:\nID\tName\tDept\n1\tAAA\tIT]",
+    "title" : "\nResult Of New Updated Query:\nID\tName\tDept\n1\tAAA\tIT",
+    "time" : {
+      "start" : 1529932845088,
+      "stop" : 1529932845088,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "openTable"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "thread",
+    "value" : "3512@WIN8PRO-64-18.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "host",
+    "value" : "WIN8PRO-64-18"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testClass",
+    "value" : "IderaAutomation.Idera_copy"
+  } ],
+  "parameters" : [ ]
+}

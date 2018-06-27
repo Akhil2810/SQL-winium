@@ -1,0 +1,189 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.ideraAutomation.test</groupId>
+	<artifactId>com.ideraAutomation.test</artifactId>
+	<version>1.2.9-SNAPSHOT</version>
+
+	<url>http://maven.apache.org</url>
+
+
+	<properties>
+
+		<aspectj.version>1.8.13</aspectj.version>
+		<allure.version>1.5.4</allure.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<suiteXmlFile>testng.xml</suiteXmlFile>
+		<skipTests>false</skipTests>
+
+	</properties>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.apple</groupId>
+			<artifactId>AppleJavaExtensions</artifactId>
+			<version>1.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.2gis.winium</groupId>
+			<artifactId>winium-webdriver</artifactId>
+			<version>0.1.0-1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.2gis.winium</groupId>
+			<artifactId>winium-elements-desktop</artifactId>
+			<version>0.1.0-1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.6</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.jboss.apiviz/apiviz -->
+		<dependency>
+			<groupId>org.jboss.apiviz</groupId>
+			<artifactId>apiviz</artifactId>
+			<version>1.3.2.GA</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>2.53.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.8.8</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>ru.yandex.qatools.allure</groupId>
+			<artifactId>allure-testng-adaptor</artifactId>
+			<version>${allure.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>junit</groupId>
+					<artifactId>junit</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+	</dependencies>
+	<build>
+		<pluginManagement>
+			<plugins>
+
+				<!-- <plugin> -->
+				<!-- <groupId>org.apache.maven.plugins</groupId> -->
+				<!-- <artifactId>maven-compiler-plugin</artifactId> -->
+
+				<!-- <configuration> -->
+				<!-- <version>3.3</version> -->
+
+				<!-- </configuration> -->
+				<!-- </plugin> -->
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+
+					<configuration>
+						<version>3.3</version>
+					</configuration>
+				</plugin>
+
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.6</version>
+					<configuration>
+
+						<suiteXmlFiles>
+							<suiteXmlFile>testng.xml</suiteXmlFile>
+							<!-- <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> -->
+						</suiteXmlFiles>
+
+						<testFailureIgnore>true</testFailureIgnore>
+						<argLine>
+							-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+						</argLine>
+
+					</configuration>
+					<dependencies>
+						<!-- https://mvnrepository.com/artifact/aspectj/aspectjweaver -->
+
+
+						<dependency>
+							<groupId>org.aspectj</groupId>
+							<artifactId>aspectjweaver</artifactId>
+							<version>${aspectj.version}</version>
+						</dependency>
+					</dependencies>
+				</plugin>
+
+				<plugin>
+					<groupId>org.eclipse.jetty</groupId>
+					<artifactId>jetty-maven-plugin</artifactId>
+					<version>9.2.10.v20150310</version>
+					<configuration>
+
+						<webAppSourceDirectory>${project.build.directory}/site/allure-maven-plugin</webAppSourceDirectory>
+						<!-- //<webAppSourceDirectory>${project.build.directory}/site/allure-maven-plugin</webAppSourceDirectory> -->
+						<stopKey>stop</stopKey>
+						<stopPort>1234</stopPort>
+					</configuration>
+				</plugin>
+
+			</plugins>
+		</pluginManagement>
+	</build>
+	<reporting>
+		<excludeDefaults>true</excludeDefaults>
+		<plugins>
+			<plugin>
+				<groupId>ru.yandex.qatools.allure</groupId>
+				<artifactId>allure-maven-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+					<outputDirectory>${basedir}/target/allure-reports/</outputDirectory>
+					<allureResultsDirectory>${basedir}/target/allure-results</allureResultsDirectory>
+				</configuration>
+			</plugin>
+
+
+			<!-- To use the plugin goals in your POM or parent POM -->
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-site-plugin</artifactId>
+				<version>3.7.1</version>
+			</plugin>
+
+		</plugins>
+
+		<outputDirectory>${basedir}/target/site</outputDirectory>
+	</reporting>
+
+
+
+
+
+
+</project>
